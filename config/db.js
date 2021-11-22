@@ -9,6 +9,7 @@ const connectDB = async () => {
       useNewUrlParser: true, //deprecation warning
       // useCreateIndex: true,
       // useFindAndModify: false,
+      //userFind
     });
     console.log("MongoDB connected");
   } catch (err) {
